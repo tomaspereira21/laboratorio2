@@ -1,0 +1,101 @@
+.avatar{
+    float: left;
+    margin: 0 50px 0 0;
+}
+
+h1 img{
+    border-radius: 20%;
+}
+
+h1 span{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+    margin-top: 90px;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Isso é apenas para demonstração, pode ser ajustado conforme necessário */
+ }
+
+ .botao {
+    position: absolute;
+    top: 10px; /* Distância do topo */
+    right: 10px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.inline {
+  display: inline-block;
+}
+
+.botaotarefa {
+  text-align: right;
+  float: right;
+}
+
+.square {
+    width: 500px;
+    height: 400px;
+    background-color: hsl(40deg 47.37% 96.27%);
+    border: 2px solid #000;
+    padding: 20px;
+    margin: auto; /* Centraliza horizontalmente */
+}
+
+.profile-img {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+.form-group{
+  width: 100%; /* Ocupa toda a largura do quadrado */
+  font-size: 14px;
+}
+
+.square2 {
+  width: 500px;
+  height: 400px;
+  background-color: hsl(40deg 47.37% 96.27%);
+  border: 2px solid #000;
+  padding: 20px;
+  margin: auto; /* Centraliza horizontalmente */
+  top: 200px;
+}
+
+.btn-fechar {
+  background-color: transparent;
+  color: #333; /* Cor do texto */
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.btn-gravar {
+  background-color: #28a745; /* Verde */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+

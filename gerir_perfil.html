@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+
+    <button onclick="goBack()">Voltar</button>
+
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script><br>
+    <div class="square">
+        <img src="https://www.zerozero.pt/img/jogadores/64/926864_ori__20220830181632_tomas_pereira.jpg" alt="Imagem de Perfil" class="profile-img">
+        <form>
+            <div>
+                <label for="name">Nome:</label><br>
+                <input class="form-group" type="text" id="name" name="name" required>
+            </div>
+            <br>
+        
+            <div>
+                <label for="email">E-mail:</label><br>
+                <input class="form-group" type="email" id="email" name="email" required>
+            </div>
+            <br>
+            <button class="btn-gravar">Gravar</button>
+        </form>
+        
+    </div>
+</body>
+</html>
